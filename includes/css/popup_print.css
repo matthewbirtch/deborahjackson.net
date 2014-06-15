@@ -1,0 +1,122 @@
+body {
+
+	background-color: #FFFFFF;
+
+	margin:0px;
+
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+	font-size: 13px;
+
+	color: #666666;
+
+	line-height: 18px;
+
+	}
+
+h1, h2, h3, h4 {
+
+	margin-top:0px;
+
+	margin-bottom:12px;
+
+	}
+
+h1 {
+
+	font-size: 24px;
+
+	color: #000000;
+
+}
+
+h2 {
+
+	font-size: 18px;
+
+	color: #000000;
+
+}
+
+h3 {
+
+	font-size: 16px;
+
+	color: #000000;
+
+}
+
+h4 {
+
+	font-size: 13px;
+
+	color: #000000;
+
+	font-style: italic;
+
+}
+
+p {
+
+	margin-top:0px;
+
+	margin-bottom:14px;
+
+	}
+
+#mainwrapper {
+
+	border:none;
+
+	position:relative;
+
+	width:420px;
+
+	margin:auto;
+
+	padding: 0px 40px 40px 40px;
+
+	}
+
+#header {
+
+	position:relative;
+
+	height: 40px;
+
+	margin: 0px 0px 35px 0px;
+
+	padding-top: 25px;
+
+	}
+
+#header h1 {
+
+	margin:0px;
+
+	}
+
+#content {
+
+	position:relative;
+
+	margin: 0;
+
+	}
+
+#footer {
+
+	margin:20px 0px 0px 0px;
+
+	padding: 0px;
+
+	}
+
+/*---HIDE ULS when printing----*/
+
+ul {
+
+	visibility:hidden;
+
+	}
+

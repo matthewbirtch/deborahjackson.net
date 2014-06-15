@@ -1,0 +1,1147 @@
+body {
+	background-color:#CCCCCC;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:20px;
+	color:#000000;
+	margin:0px;
+	padding: 0;
+
+	}
+.sidebartext {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+.maintext {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+}
+.titlesidebar {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.indexCenter {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #000;
+}
+
+
+
+img {
+	border:none;
+	text-align: center;
+
+	}
+
+p {
+	margin-top:0px;
+	margin-bottom:12px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	text-align: left;
+	color: #000000;
+
+	}
+
+#mainwrapper {
+	position:relative;
+	border: solid 1px #AAAAAA;
+	border-top:none;
+	width:900px;
+	margin:auto;
+	margin-bottom: 40px;
+	background-color:#FFFFFF;
+	padding: 0 40px 40px 40px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+
+	}
+
+#header {
+	position: relative;
+	height: 194px;
+	visibility: visible;
+
+}
+
+#footer {
+
+	font-size:10px;
+
+	line-height:13px;
+
+	border-top: solid 1px #AAAAFF;
+
+	text-align:center;
+
+	padding:20px 20px 0px 20px;
+
+	}
+
+ul.noBullet{
+
+	list-style:none;
+
+	margin:0;
+
+	padding:0;
+
+	}
+
+#footer li{
+
+	display:inline;
+
+	}
+
+#footer ul {
+
+	margin:0px 0px 8px 0px;
+
+	}
+
+#footer li {
+
+	margin-right: 10px;
+
+	}
+
+
+
+#leftColumn {
+
+	width: 189px;
+
+	}
+
+#middleColumn {
+
+	width: 163px;
+
+	float: left;
+
+	}
+
+#rightColumn {
+
+	width: 345px;
+
+	padding-top: 12px;
+
+	}
+
+.quote {
+
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+	color: #666666;
+
+	font-style: italic;
+
+	padding: 20px;
+
+	border: 1px solid #999999;
+
+	font-size: 16px;
+
+	line-height: 24px;
+
+	}
+
+#footer a:link {
+
+	text-decoration:underline;
+
+	color:#777777;
+
+	}
+
+#footer a:visited {
+
+	text-decoration:underline;
+
+	color:#777777;
+
+	}
+
+#footer a:hover {
+
+	color:#444444;
+
+	text-decoration:none;
+
+	}
+
+#footer a:active {
+
+	text-decoration:underline;
+
+	color:#777777;
+
+	}
+
+#footer p {
+
+	margin:0
+
+	}
+
+#bluebox {
+	position:absolute;
+	top:0px;
+	right:0px;
+	background-image: url(../images/blueBox.gif);
+	height: 144px;
+	width: 500px;
+	background-color: #0030B2;
+	visibility: visible;
+
+	}
+
+#navwrapper {
+	position:absolute;
+	top: 143px;
+	right:-1px;
+	padding: 10px 0px 9px 0px;
+	z-index: 2;
+	width: 983px;
+	margin-top: 10px;
+	border-top: solid 1px #CCCCCC;
+	border-bottom: solid 1px #CCCCCC;
+	visibility: visible;
+
+	}
+
+li.textlinks {
+
+	margin: 5px 0px 5px 0px;
+
+	background-position:left center;
+
+	}
+
+li.textlinks a:link {
+
+	text-decoration:none;
+
+	color:#000000;
+
+	}
+
+li.textlinks a:visited {
+
+	text-decoration:none;
+
+	color:#000000;
+
+	}
+
+li.textlinks a:hover {
+
+	text-decoration:underline;
+
+	color:#777777;
+
+	}
+
+li.textlinks a:active {
+	text-decoration:none;
+	color:#000000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-transform: none;
+
+	}
+
+li.selected a:link {
+
+	text-decoration:none;
+
+	color:#999999;
+
+	}
+
+li.selected a:visited {
+
+	text-decoration:none;
+
+	color:#999999;
+
+	}
+
+li.selected a:hover {
+
+	text-decoration:underline;
+
+	color:#777777;
+
+	}
+
+li.selected a:active {
+	text-decoration:none;
+	color:#000000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-transform: capitalize;
+
+	}
+
+li.arrows {
+	padding-left: 10px;
+	background: url(../images/nav_bullet.gif) no-repeat 0px 3px;
+	color: #000000;
+
+	}
+
+li.arrows_red {
+
+	padding-left: 10px;
+
+	background: url(../images/nav_bullet2.gif) no-repeat 0px 3px;
+
+	}
+
+li.print {
+
+	background-image: url(../images/printer_bullet.gif);
+
+	padding-left: 15px;
+
+	background-repeat: no-repeat;
+
+	background-position:left bottom;
+
+	}
+
+li.selected { color:#999999; 	}
+
+a.arrows {
+
+	background-image: url(../images/nav_bullet.gif);
+
+	padding-left: 10px;
+
+	background-repeat: no-repeat;
+
+	background-position:left bottom;
+
+	}
+
+#navwrapper li {
+
+	display:inline;
+
+	margin-left: 8px;
+
+	padding-right: 5px;
+
+	padding-left: 10px;
+
+	padding-top: 0px;
+
+	padding-bottom: 0px;
+
+	}
+
+#navwrapper li.last {
+
+	padding-right:0px;
+
+	}
+
+
+
+#tools {
+	position:absolute;
+	top:20px;
+	left:0px;
+	visibility: visible;
+
+	}
+
+#logo {
+	position:absolute;
+	left:0px;
+	top: 130px;
+	visibility: visible;
+
+	}
+
+#logo h1 {
+
+	margin: 0px;
+
+}
+
+#logo.home{
+
+	top:77px;
+
+	z-index: 1;
+
+	}
+
+#content {
+	margin-top: 20px;
+	position: relative;
+	margin-bottom: 20px;
+	text-align: left;
+	visibility: visible;
+
+	}	
+
+.home_mainpromo {
+
+	width: 386px;
+
+	height: 281px;
+
+	background: url(../images/home_tmundercover.jpg) no-repeat right top;
+
+	position: relative;
+
+	margin-right: 15px;
+
+}
+
+#home_iceTomb #text {
+
+	position: absolute;
+
+	top: 170px;
+
+	width: 124px;
+
+	left: 12px;
+
+	color: #000000;
+
+}
+
+#home_iceTomb #text ul {
+
+	margin-top: 12px;
+
+}
+
+#home_timeMeddlers #text {
+
+	position:absolute;
+
+	width: 215px;
+
+	right: 30px;
+
+	top: 98px;
+
+}
+
+#home_timeMeddlers h2 {
+
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+	font-size: 18px;
+
+	font-style: italic;
+
+	font-weight: normal;
+
+	line-height: 25px;
+
+	text-align: right;
+
+	margin: 0px;
+
+	color: #666666;
+
+}
+
+.floatLeft {
+
+	float: left;
+
+	}
+
+.hidden {
+
+	visibility: hidden;
+
+	position: absolute;
+
+	}
+
+.clearBoth {
+
+	clear: both;
+
+	}
+
+.floatRight {
+
+	float: right;
+
+	}
+
+
+
+#home_iceTomb h2,#home_iceTomb p {
+
+	margin:0px;
+
+	}
+
+#home_instores {
+
+	background-color: #003BB2;
+
+	font-size: 10px;
+
+	font-weight: bold;
+
+	color: #FFFFFF;
+
+	padding: 6px;
+
+	width: 132px;
+
+}
+
+#home_timeMeddlers ul {
+
+	right: 30px;
+
+	position: absolute;
+
+	top: 240px;
+
+}
+
+a:link {
+
+	color: #003BB2;
+
+	text-decoration: underline;
+
+}
+
+a:visited {
+
+	color: #003BB2;
+
+	text-decoration: underline;
+
+}
+
+a:hover {
+
+	color: #003BB2;
+
+	text-decoration: none;
+
+}
+
+a:active {
+
+	color: #003BB2;
+
+	text-decoration: underline;
+
+}
+
+h1 a:link, h2 a:link, h3 a:link {
+
+	color: #000000;
+
+	text-decoration: none;
+
+}
+
+h1 a:visited, h2 a:visited, h3 a:visited {
+
+	color: #000000;
+
+	text-decoration: none;
+
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover {
+
+	color: #003BB2;
+
+	text-decoration: underline;
+
+}
+
+h1 a:active, h2 a:active, h3 a:active {
+
+	color: #000000;
+
+	text-decoration: none;
+
+}
+
+h3 a:link { color: #003BB2; }
+
+h3 a:visited { color: #003BB2; }
+
+h3 a:hover { color: #003BB2; }
+
+h3 a:active { color: #003BB2; }
+
+
+
+h3 {
+
+	color: #003BB2;
+
+	font-size: 13px;
+
+	line-height: 16px;
+
+	margin-bottom: 10px;
+
+	margin-top: 32px;
+
+}
+
+#rightColumn_books {
+
+	width: 511px;
+
+}
+
+.book_item {
+
+	margin-left: 189px;
+
+	margin-bottom: 20px;
+
+	padding-top: 13px;
+
+}
+
+.book_item_img {
+
+	width:163px;
+
+	text-align:left;
+
+}
+
+h2 {
+
+	color: #000000;
+
+	font-size: 18px;
+
+	font-weight: bold;
+
+	margin-bottom: 14px;
+
+	margin-top: 0px;
+
+	line-height: 20px;
+
+}
+
+.noMargin {
+
+	margin:0px;
+
+	}
+
+.book_item_text {
+	width: 500px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.red {
+
+	color: #FF0000;
+
+}
+
+p.intro {
+	font-size: 13px;
+	line-height: 23px;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+
+}
+
+hr {
+
+	width: 100%;
+
+	border-top-style: dotted;
+
+	border-right-style: none;
+
+	border-bottom-style: none;
+
+	border-left-style: none;
+
+	border-top-width: 1px;
+
+	border-right-width: 1px;
+
+	border-bottom-width: 1px;
+
+	border-left-width: 1px;
+
+	border-top-color: #BBBBBB;
+
+	margin: 20px 0 10px 0;
+
+}
+
+.byline {
+
+	font-style: italic;
+
+	color: #000000;
+
+	font-size: 9px;
+
+	line-height: 12px;
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-weight: bold;
+
+	margin-bottom: 26px;
+
+}
+
+h4 {
+
+	color: #000000;
+
+	font-size: 12px;
+
+	font-style: italic;
+
+}
+
+h5 {
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #003BB2;
+
+}
+
+ul {
+
+	margin-top: 0px;
+
+}
+
+li {
+
+	margin-bottom: 8px;
+
+}
+
+
+
+#navwrapper ul {
+
+	text-align: right;
+
+	margin: 0;
+
+}
+
+
+
+.quotemark {
+
+	color: #003BB2;
+
+	font: 80px/80px Georgia, "Times New Roman", Times, serif;
+
+	display: block;
+
+	position: relative;
+
+	top: 0px;
+
+	width: 30px;
+
+	height: 30px;
+
+}
+
+
+
+div#leftColumn h2.noMargin {
+	top: -15px;
+	position: relative;
+	margin-bottom: -15px;
+	visibility: visible;
+
+}
+
+
+
+#rightcolumn {
+	float: right;
+	width: 500px;
+	text-align: left;
+	color: #000;
+
+}
+
+
+
+#middleColumn h2.noMargin {
+
+	position: relative;
+
+	top: -15px;
+
+	margin-bottom: -15px;
+
+}
+
+
+
+.home_instores {
+
+	height: 280px;
+
+	width: 226px;
+
+	background: url(../images/home_instores_bg.jpg) repeat-x;
+
+	margin-right: 15px;
+
+	padding: 8px;
+
+	position: relative;
+
+}
+
+
+
+.home_instores .text {
+
+	position: absolute;
+
+	width: 220px;
+
+	top: 178px;
+
+}
+
+
+
+.home_mainpromo .text {
+
+	font: 17px/22px Georgia, "Times New Roman", Times, serif;
+
+	width: 180px;
+
+	margin-top: 30px;
+
+}
+
+
+
+.home_instores .bookcover {
+
+	position: absolute;
+
+	top: 30px;
+
+	left: 50px;
+
+}
+
+
+
+
+
+/*REVIEWS*/
+
+#reviews {}
+
+.review {
+	border-bottom: solid 1px #ddd;
+	padding-top:20px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+
+.review .content { font-style:italic }#mainwrapper #content .clearBoth {
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+#mainwrapper #content .clearBoth p strong {
+	color: #000000;
+}
+#mainwrapper #content #rightcolumn p {
+	text-align: left;
+	font-style: italic;
+}
+#mainwrapper #content .clearBoth p {
+	text-align: left;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+}
+#mainwrapper #content .clearBoth p {
+	text-align: left;
+	font-size: 16px;
+}
+#mainwrapper #content #rightcolumn p {
+	font-style: normal;
+	text-align: center;
+}
+#mainwrapper #content #rightcolumn p {
+	text-align: left;
+	font-size: 16px;
+}
+#mainwrapper #content #middleColumn .intro .last .text .selected {
+	color: #000000;
+}
+#mainwrapper #content #rightcolumn .quote .byline {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+}
+#mainwrapper #content #rightcolumn .byline {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+}
+.titles {
+	font-style: italic;
+}
+.Right {
+	text-align: left;
+}
+#Centered {
+	text-align: left;
+}
+#mainwrapper #content .clearBoth p {
+	text-align: left;
+	font-family: "Courier New", Courier, monospace;
+}
+#mainwrapper #content .book_item.clearBoth .book_item_text.floatRight .clearBoth {
+	text-align: left;
+}
+#mainwrapper #content .book_item.clearBoth .book_item_text.floatRight .clearBoth {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #000000;
+}
+#mainwrapper #content .book_item.clearBoth .book_item_text.floatRight p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align: left;
+}
+#mainwrapper #content .clearBoth .floatLeft.quote {
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+#mainwrapper #content .clearBoth .floatLeft.quote {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#mainwrapper #content .clearBoth p .clearBoth {
+	text-align: center;
+}
+#mainwrapper #content .clearBoth p {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#mainwrapper #content .clearBoth p {
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 16px;
+}
+.right {
+	text-align: left;
+}
+#mainwrapper #content .clearBoth {
+	text-align: left;
+}
+#mainwrapper #content .clearBoth {
+	font-size: 16px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align: center;
+}
+p {
+	font-size: 12px;
+}
+#quote {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.quote2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #36F;
+}
+
+#quote {
+	font-size: 12px;
+}
+#quote {
+	font-size: 12px;
+}
+#excerpt {
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+#excerpt {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#excerpt {
+	font-style: italic;
+}
+#new_text {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#mainwrapper #content .clearBoth p {
+	text-align: left;
+	font-style: italic;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+}
+#mainwrapper #content .clearBoth p .clearBoth {
+	text-align: center;
+}
+#center_index {
+	text-align: center;
+}
+.NoQuote {
+	font-style: normal;
+}
+.NoQuote {
+	font-style: normal;
+}
+.NonQuote {
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#mainwrapper #content .clearBoth .floatLeft.quote {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#mainwrapper #content .clearBoth p {
+	font-style: italic;
+}
+#mainwrapper #content .clearBoth p {
+	color: #000000;
+	font-size: 14px;
+	font-style: normal;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.quoteby {
+	font-style: italic;
+}
+#mainwrapper #content .clearBoth .floatLeft.quote {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#QuoteTitle {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+}
+.NewRelease {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+}
+
+#mainwrapper #content .clearBoth .floatRight.quote p .NoQuote {
+	font-weight: normal;
+}
+#MiddleContent {
+	font-size: 12px;
+}
+#QuoteTitle {
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#MidContent {
+	font-style: normal;
+}
+#MidContent {
+	font-style: normal;
+}
+#Midd {
+	font-style: normal;
+}
+#Middle {
+	font-size: 12px;
+}
+#Midd {
+	font-family: "Courier New", Courier, monospace;
+}
+#mainwrapper #content .clearBoth .quote .quote {
+	text-align: left;
+}
+#mainwrapper #content .clearBoth div .maintext .maintext {
+	font-weight: bold;
+}
+#mainwrapper #content #leftColumn .noBullet .arrows.textlinks a {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#mainwrapper #content .clearBoth div .maintext .maintext .maintext {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#mainwrapper #content .clearBoth div .maintext .maintext .maintext {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#mainwrapper #content .clearBoth .floatLeft.quote {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#mainwrapper #content .clearBoth div .maintextstyle .maintextstyle .maintextstyle span {
+	font-size: 14px;
+}
+#mainwrapper #content .clearBoth div .maintextstyle .maintextstyle .maintextstyle span {
+	font-size: 16px;
+}
+#mainwrapper #content .clearBoth div .maintextstyle {
+	font-size: 14px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#mainwrapper #content .clearBoth .floatRight.quote p .indexCenter #QuoteTitle .noMargin {
+	font-size: 14px;
+}
+#mainwrapper #content .clearBoth .floatRight.quote p .indexCenter #QuoteTitle .noMargin {
+	font-size: 14px;
+}
+#mainwrapper #content .clearBoth div .maintext {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#mainwrapper #content .clearBoth div .maintext {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#mainwrapper #content .clearBoth .floatLeft.quote {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#mainwrapper #content .clearBoth .floatLeft.quote {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#mainwrapper #content .clearBoth .floatLeft.quote {
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+#Green {
+	color: #008000;
+}
+#Red {
+	color: #9F0000;
+}
